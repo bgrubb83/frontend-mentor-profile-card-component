@@ -1,0 +1,8 @@
+.bg-header {
+    width: 350px;
+    height: 140px;
+    background-image: url(./bg-pattern-card.svg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom: 4px solid #fff;
+}

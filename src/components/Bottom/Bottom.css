@@ -1,0 +1,8 @@
+.bottom {
+    width: 350px;
+    height: 88px;
+    background-color: #fff;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
