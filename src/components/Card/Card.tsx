@@ -1,10 +1,10 @@
 import React from 'react';
-import Card from './components/Card'
+import './Card.css';
 
 function App() {
-  return (
-    <Card />
-  );
+    return (
+        <div>Card</div>
+    );
 }
 
 export default App;
