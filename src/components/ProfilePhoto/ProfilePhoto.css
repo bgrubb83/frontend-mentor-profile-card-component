@@ -4,7 +4,7 @@
     background-image: url(./image-victor.jpg);
     border-radius: 50%;
     position: relative;
-    left: calc(50% - 48px);
-    top: calc(140px - 48px);
+    left: calc(50% - 48px - 4px); /* middle - half photo width - border-width */
+    top: calc(140px - 48px - 4px); /* middle - half photo width - border-width */
     border: 4px solid #fff;
 }
