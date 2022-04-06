@@ -1,9 +1,12 @@
-import React from 'react';
 import './Bottom.css';
+
+import Sandwich from '../Sandwich'
 
 function Bottom() {
     return (
-        <div className='bottom'></div>
+        <div className='bottom'>
+            <Sandwich />
+        </div>
     );
 }
 

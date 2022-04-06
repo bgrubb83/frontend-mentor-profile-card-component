@@ -1,0 +1,24 @@
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+.sandwich-header {
+    font-weight: 700;
+    color: hs1(229, 23%, 23%);
+}
+
+.sandwich-body {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%)
+}
+
+.sandwich-wrapper {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
