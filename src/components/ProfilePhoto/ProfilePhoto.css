@@ -1,0 +1,10 @@
+.profile-photo {
+    height: 96px;
+    width: 96px;
+    background-image: url(./image-victor.jpg);
+    border-radius: 50%;
+    position: relative;
+    left: calc(50% - 48px);
+    top: calc(140px - 48px);
+    border: 4px solid #fff;
+}

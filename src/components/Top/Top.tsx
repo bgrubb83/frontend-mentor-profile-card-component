@@ -1,9 +1,11 @@
-import React from 'react';
 import './Top.css';
+import ProfilePhoto from '../ProfilePhoto'
 
 function Top() {
     return (
-        <div className='bg-header'></div>
+        <div className='bg-header'>
+            <ProfilePhoto />
+        </div>
     );
 }
 
