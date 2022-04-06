@@ -1,6 +1,6 @@
 import './ProfilePhoto.css';
 
-function ProfilePhoto() {
+function ProfilePhoto(): JSX.Element {
     return (
         <div className='profile-photo'></div>
     );

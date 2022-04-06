@@ -10,15 +10,17 @@ p {
 
 .sandwich-body {
     font-weight: 400;
-    color: hsl(0, 0%, 59%)
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
 }
 
 .sandwich-wrapper {
-    background-color: antiquewhite;
-    display: flex;
+    display:inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
     height: 100%;
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
 }

@@ -1,6 +1,6 @@
 import './Middle.css';
 
-function Middle() {
+function Middle(): JSX.Element {
     return (
         <div className='middle'></div>
     );
