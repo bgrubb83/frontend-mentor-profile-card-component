@@ -2,4 +2,7 @@
     width: 350px;
     height: 140px;
     background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

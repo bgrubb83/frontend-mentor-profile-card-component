@@ -1,0 +1,21 @@
+.bio-wrapper {
+    text-align: center;
+    padding-top: 46px;
+    line-height: 28px;
+}
+
+.name {
+    font-weight: 700;
+    color: hs1(229, 23%, 23%);
+}
+
+.age {
+    padding-left: 6px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.location {
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+}
