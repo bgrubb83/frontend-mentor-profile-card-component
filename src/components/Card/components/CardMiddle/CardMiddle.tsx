@@ -1,5 +1,5 @@
-import './Middle.css';
-import Bio from '../Bio';
+import './CardMiddle.css';
+import Bio from '../../components/Bio';
 
 const bioData = {
     name: 'Victor Crest',
@@ -7,9 +7,9 @@ const bioData = {
     location: 'London',
 }
 
-function Middle(): JSX.Element {
+function CardMiddle(): JSX.Element {
     return (
-        <div className='middle'>
+        <div className='card-middle'>
             <Bio
                 name={bioData.name}
                 age={bioData.age}
@@ -19,4 +19,4 @@ function Middle(): JSX.Element {
     );
 }
 
-export default Middle;
+export default CardMiddle;

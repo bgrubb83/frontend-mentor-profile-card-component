@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from './components/Card'
 import DecorationTop from './components/DecorationTop';
 import DecorationBottom from './components/DecorationBottom';
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <DecorationTop />
-      <div className='wrapper'>
+      <div className='card-wrapper'>
         <Card />
       </div>
       <DecorationBottom />

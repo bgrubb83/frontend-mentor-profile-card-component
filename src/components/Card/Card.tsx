@@ -1,15 +1,15 @@
 import './Card.css';
 
-import Top from '../Top'
-import Middle from '../Middle'
-import Bottom from '../Bottom'
+import CardTop from './components/CardTop';
+import CardMiddle from './components/CardMiddle';
+import CardBottom from './components/CardBottom';
 
 function App(): JSX.Element {
     return (
         <div className='card'>
-            <Top />
-            <Middle />
-            <Bottom />
+            <CardTop />
+            <CardMiddle />
+            <CardBottom />
         </div>
     );
 }

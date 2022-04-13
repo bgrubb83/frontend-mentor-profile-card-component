@@ -3,7 +3,7 @@ body {
     overflow: hidden;
 }
 
-.wrapper {
+.card-wrapper {
     display: flex;
     height: 100vh;
     align-items: center;
